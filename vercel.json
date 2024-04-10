@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/.*",
-      "dest": "localhost:8080/chat/"
+      "dest": "http://localhost:8080/chat/"
     }
   ]
 }
