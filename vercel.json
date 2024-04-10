@@ -6,6 +6,6 @@
   }],
   "routes": [{
     "src": "/(.*)",
-    "dest": "g4f/gui/server/app.py"
+    "dest": "g4f/gui/server/website.py"
   }]
 }
