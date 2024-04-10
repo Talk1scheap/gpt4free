@@ -1,11 +1,17 @@
 {
   "version": 2,
-  "builds": [{
-    "src": "g4f/gui/server/app.py",
-    "use": "@vercel/python"
-  }],
+  "builds": [
+    {
+      "src": "g4f/gui/server/app.py",
+      "use": "@vercel/python"
+    },
+    {
+      "src": "g4f/gui/client/**",
+      "use": "@vercel/static"
+      }
+  ],
   "routes": [{
     "src": "/(.*)",
-    "dest": "g4f/gui/server/website.py"
+    "dest": "/"
   }]
 }
