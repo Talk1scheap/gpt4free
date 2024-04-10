@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/.*",
-      "dest": "/g4f/gui/client/index.html"
+      "dest": "localhost:8080/chat/"
     }
   ]
 }
