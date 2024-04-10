@@ -2,11 +2,11 @@
   "routes": [
     {
       "src": "/v1/(.*)",
-      "dest": "http://localhost:1337/v1/$1"
+      "dest": "http://127.0.0.1:1337/v1/$1"
     },
     {
       "src": "/chat/(.*)",
-      "dest": "http://localhost:8080/chat/$1"
+      "dest": "http://127.0.0.1:8080/chat/$1"
     }
   ]
 }
