@@ -6,6 +6,10 @@
       "use": "@vercel/python"
     },
     {
+      "src": "g4f/gui/server/backend.py",
+      "use": "@vercel/python"
+    },
+    {
       "src": "g4f/gui/client/**",
       "use": "@vercel/static"
       }
