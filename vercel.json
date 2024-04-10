@@ -1,8 +1,11 @@
 {
-  "routes": [
-    {
-      "src": "/.*",
-      "dest": "http://localhost:8080/chat/"
-    }
-  ]
+  "version": 2,
+  "builds": [{
+    "src": "g4f/gui/server/app.py",
+    "use": "@vercel/python"
+  }],
+  "routes": [{
+    "src": "/(.*)",
+    "dest": "g4f/gui/server/app.py"
+  }]
 }
