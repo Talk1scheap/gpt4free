@@ -1,13 +1,5 @@
 {
-  "version": 2,
-  "rewrites": [
-    {
-      "source": "/v1",
-      "destination": "localhost:1337/v1"
-    },
-    {
-      "source": "/",
-      "destination": "localhost:8080/chat"
-    }
-  ]
+    "rewrites": [
+        {"source": "/(.*)", "destination": "/"}
+    ]
 }
